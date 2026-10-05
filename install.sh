@@ -87,3 +87,4 @@ done
 
 info "Done. Double-click any .md file to try it."
 echo "    Log: ~/Library/Logs/ObsidianMDOpener.log"
+echo "    If double-clicking a file in Finder does nothing, relaunch Finder: killall Finder"

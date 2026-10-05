@@ -79,6 +79,7 @@ It never removes symlinks of files that are open in a tab, links to files on a c
 - If a file lives in a protected folder (Desktop, Documents, Downloads, external disks), Obsidian may ask for access once.
 - If you move or delete an original file, its symlink breaks and is cleaned up after a day.
 - Only `.md`, `.markdown` and `.mdown` files are handled.
+- **Double-click in Finder does nothing?** A long-running Finder can get stuck and stop opening *any* file (check: does a plain `.txt` open in TextEdit?). Relaunch it: hold Option, right-click the Finder icon in the Dock, choose *Relaunch*, or run `killall Finder`. If `open note.md` works in Terminal, the app is fine.
 - Related: [ObsidianOpener](https://github.com/Fletcher-Alderton/ObsidianOpener) solves the same problem by *copying* outside files into a vault; this project symlinks them so the original is edited.
 
 ## Layout
